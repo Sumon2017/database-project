@@ -1,0 +1,274 @@
+.header{
+/*    background-image: url(../images/sustbackground.jpg);*/
+    background-color:cadetblue;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(../images/shutterstock_1782359774-scaled.jpg);
+    
+/*    margin: 45%;*/
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+
+.logo1{
+    margin-top: 60px;
+    float: left;
+    height: 150px;
+    width: 160px;
+    border-radius: 50%;
+}
+.logo2{
+    margin-left: 10px;
+    margin-top: 60px;
+    height: 150px;
+    width: 160px;
+    border-radius: 50%
+}
+
+.first_row{
+    margin-top: 55px;
+    
+}
+
+.navbar{
+    margin-top: 60px;
+    margin-left: 350px;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+.navbar li a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+/*    border-radius: 30%;*/
+    
+}
+.navbar li a:hover{
+    color:cyan;
+    
+}
+
+.navbar2 li:hover{
+        transform: scale(1.1);
+	transition: transform 300ms ease-in;
+}
+
+.second_row{
+    margin-top: 20px;
+/*    margin-left: 80px;*/
+}
+.navbar2{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    overflow: hidden;
+}
+.navbar2 li{
+    border: 
+    
+}
+
+.navbar2 li a{
+    color:blueviolet;
+    text-decoration: none;
+    font-family: cursive;
+/*    display: inline-block;*/
+    background-color:beige;
+    padding: 20px;
+    border-radius: 300px;
+    
+}
+.navbar2 li a:hover{
+    color:coral;
+    font-weight: bold;
+
+}
+
+.navbar2 li .clr{
+    color: coral;
+}
+
+
+.third_row{
+    margin-top: 40px;
+    font-size: 40px;
+    color:blueviolet;
+}
+
+
+.descriptionb1{
+    height: 1000px;
+        background: url(../images/give-blood-2.png);
+    background-size: 100% 100%;
+    background-position: 550px 40px ;
+    background-repeat:round;
+/*    background-color: rgb(240,20,68);*/
+    
+/*    background-color: linear-gradient(to right, rgb(240,20,68) , yellow);*/
+
+    
+/*    place-items:center;*/
+/*    align-items: center;*/
+}
+
+.descriptionb1 h1{
+    text-align: center;
+    color:deeppink;
+    font-size: 30px;
+        background: url(../images/Blood-Donation-1.jpg);
+    background-size: 100% 100%;
+}
+
+.second1_row{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+/*    align-items: center;*/
+/*    place-items:center;*/
+}
+.table1{
+
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+    margin-left: 200px;
+
+    
+}
+
+table{
+    width: 800px;
+    box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+    
+}
+table,td,th{
+    padding: 20px;
+    border: 1px solid lightgray;
+/*    border-collapse: collapse;*/
+    text-align: center;
+    cursor: pointer;
+}
+
+td{
+    font-size: 18px;
+}
+
+th{
+    background-color: blue;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+tr:nth-child(odd):hover{
+    background-color:deeppink;
+    color: white;
+    transform: scale(1.2);
+    transition: transform 300ms ease-in;
+}
+
+tr:nth-child(even){
+
+	background-color: #ededed;
+
+}
+
+tr:nth-child(even):hover{
+
+	background-color: deeppink;
+    color: white;
+
+	transform: scale(1.2);
+
+	transition: transform 300ms ease-in;
+
+
+}
+
+
+.third1_row{
+/*    margin-top: 180px;*/
+    margin-left: 50px;
+}
+
+
+.lbl{
+    color: cyan;
+    margin-left: 80px;
+}
+.txtarea{
+    background-color: antiquewhite;
+    text-align: center;
+    font-weight: bold;
+    cursor:default;
+/*    margin-left: 80px;*/
+/*    float: left;*/
+/*    font-size: 10px;*/
+}
+.nextpage,.previouspage,.firstpage,.lastpage{
+    background-color:aquamarine;
+    color: black;
+    border-radius: 30%;
+    font-weight: bold;
+}
+.previouspage{
+/*    margin-left: 300px;*/
+}
+.nextpage{
+    margin-left: 80px;
+/*    margin-right: 100px;*/
+/*    border: 10px solid gray;*/
+}
+
+.firstpage{
+/*    padding-left: 250px;*/
+    margin-left: 220px;
+    
+}
+.lastpage{
+    
+}
+
+.nextpage:hover , .previouspage:hover, .firstpage:hover , .lastpage:hover{
+    background-color:blueviolet;
+    color: black;
+    
+    transform: scale(1.2);
+	transition: transform 300ms ease-in;
+}
+
+
+
+
+
+.footer{
+    font-size: 20px;
+    padding: 50px;
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+    background-color:black;
+    color: aliceblue;
+    height: 150px;
+}
+.copy{
+    text-align: center;
+}
+.fb{
+    height: 30px;
+/*    margin-left: 300px;*/
+    float: right;
+    border-radius: 50%;
+}
+.fb:hover{
+        transform: scale(1.6);
+	transition: transform 300ms ease-in;
+}
+.follow{
+    text-align:right;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donor List</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/dlist.css" />
+</head>
+<body onload="makeTable()">
+    <script src="scripts/dlisttable.js"></script>
+       <div class="header container-fluid">
+<!--       <div class="container">-->
+         <div class="row first_row">
+            <div class="col-sm-6">
+               <a href="index.html"><img src="images/83_blood-donation-.jpg" class="logo1"></a>
+               <a href="index.html"><img src="images/covid-vaccination-fb.jpg" class="logo2"></a>
+            </div>
+            <div class="col-sm-6">
+                <ul class="navbar list-inline list-unstyled">
+                    <!-- <li><a href="index.html">Your Email</a></li> -->
+<!--                    <li><a href="signup.html">Sign Up</a></li>-->
+                </ul>
+            </div>
+         </div>
+         <div class="row second_row">
+             <div class="col-sm-12">
+                 <ul class="navbar2 list-inline list-unstyled text-center">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="vaccine.html">Vaccination</a></li>
+                     <li><a href="bdonation.html" class="clr">Blood Donation</a></li>
+                     <li><a href="static.html">Who Can Donate</a></li>
+                 </ul>
+             </div> 
+        </div>
+       <div class="row third_row">
+           <marquee direction="alternate" >
+            Welcome to SUST Vaccination & Blood Donation WebSite
+            </marquee>
+       </div>
+<!--       </div>-->
+       </div>
+
+       
+       
+       <div class="descriptionb1 container-fluid">
+           <div class="row first1_row">
+               <div class="col-sm-12">
+                   <h1>Here is the donor list with availability from Shahajalal University of Science and Technology : </h1>
+               </div>
+
+               <form action="" >
+                    <div>
+                        <select id="filter_val" style="min-width: 300px; min-height: 35px;">
+                            <option value="">all blood groups</option>
+                            <option value="A+">A+</option>
+                            <option value="B+">B+</option>
+                            <option value="AB+">AB+</option>
+                            <option value="O+">O+</option>
+                            <option value="A-">A-</option>
+                            <option value="B-">B-</option>
+                            <option value="AB-">AB-</option>
+                            <option value="O-">O-</option>
+                        </select>
+                    </div>
+                </form>
+
+                <input type="button" style="color:white ; background : blue ; min-width: 300px;" class="btn" name="" value="Filter" id="pressFilter" onclick="pressFilter()">
+
+
+           </div>
+           <div class="row second1_row">
+               <div class="col-sm-12">
+                   <table class="table1" id="bgtable">
+                       <tr>
+                           <th>Registration No.</th>
+                           <th>Name</th>
+                           <th>Blood Group</th>
+                           <th>Last Donation (mm/dd/yyyy)</th>
+                           <th>Phone</th>
+                           <th>Availability</th>
+                       </tr>
+                       
+                   </table>
+               </div>
+           </div>
+
+           
+
+
+           <!-- <div class="row third1_row">
+              <div class="col-sm-12">
+                 
+                 <button type="button" id="firstpage" class="firstpage">First Page</button>
+                 
+                  <button type="button" id="previouspage" class="previouspage">Previous Page</button>
+
+                <label for="pageno" class="lbl">Page No:</label>
+                <textarea id="pageno" name="pageno" rows="1" cols="2" class="txtarea">1</textarea>
+              
+              
+                  <button type="button" id="nextpage" class="nextpage">Next Page</button>
+                  
+                  <button type="button" id="lastpage" class="lastpage">Last Page</button>
+              </div>
+              
+           </div> -->
+
+       </div>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       <div class="footer container-fluid">
+                <div class="col-sm-8 copy">
+                    Copyright &copy; 2021 by CSE334 Lab Project (2017331029 , 2017331101) . All right reserved.
+                </div>
+                <div class="col-sm-4 follow">
+                   follow us : 
+                    <a href="https://www.facebook.com/a.tuhin.77897"><img src="images/fbdownload.jpg" class="fb"></a>
+                    <a href="https://www.facebook.com/sumonnnnnnn"><img src="images/ffacebook-logo-icon-transparent-12.jpg" class="fb"></a>
+                </div>
+        </div>
+    
+        
+    <script src="js/jquery-1.12.3.js"></script>  
+    <script src="js/bootstrap.min.js"></script> 
+   
+</body>
+</html>

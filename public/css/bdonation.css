@@ -1,0 +1,182 @@
+.header{
+/*    background-image: url(../images/sustbackground.jpg);*/
+    background-color:cadetblue;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(../images/shutterstock_1782359774-scaled.jpg);
+    
+/*    margin: 45%;*/
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+
+.logo1{
+    margin-top: 60px;
+    float: left;
+    height: 150px;
+    width: 160px;
+    border-radius: 50%;
+}
+.logo2{
+    margin-left: 10px;
+    margin-top: 60px;
+    height: 150px;
+    width: 160px;
+    border-radius: 50%
+}
+
+.first_row{
+    margin-top: 55px;
+    
+}
+
+.navbar{
+    margin-top: 60px;
+    margin-left: 350px;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+.navbar li a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+/*    border-radius: 30%;*/
+    
+}
+.navbar li a:hover{
+    color:cyan;
+
+}
+
+
+.navbar2 li:hover{
+        transform: scale(1.1);
+	transition: transform 300ms ease-in;
+}
+.second_row{
+    margin-top: 20px;
+/*    margin-left: 80px;*/
+}
+.navbar2{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    overflow: hidden;
+}
+.navbar2 li{
+    border: 
+    
+}
+
+.navbar2 li a{
+    color:blueviolet;
+    text-decoration: none;
+    font-family: cursive;
+/*    display: inline-block;*/
+    background-color:beige;
+    padding: 20px;
+    border-radius: 300px;
+    
+}
+.navbar2 li a:hover{
+    color:coral;
+    font-weight: bold;
+
+}
+
+.navbar2 li .clr{
+    color: coral;
+}
+/*
+.clr{
+    color: coral;
+}
+*/
+/*
+.header .second_row .navbar2 li a:nth-child(3){
+    color: coral;
+}
+*/
+
+
+
+
+.third_row{
+    margin-top: 40px;
+    font-size: 40px;
+    color:blueviolet;
+}
+
+
+
+
+.descrptb{
+    font-family:monospace;
+    background: url(../images/giveblood.jpg) , url(..images/);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:aquamarine;
+    background-position: 0px 90px;
+    background-color: rgb(13,39,66);
+    height: 600px;
+}
+.descrptb h1{
+    font-size: 25px;
+    font-weight: bold;
+/*    background-image: url(../images/giveblood.jpg);*/
+}
+
+.descrptb a{
+    text-decoration:none;
+    color:aqua;
+}
+.descrptb a:hover{
+    color: deeppink;
+
+}
+
+
+
+.firstb1_row , .firstb2_row , .firstb3_row{
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+.firstb1_row{
+    margin-top: 90px;
+}
+
+
+
+
+
+
+.footer{
+    font-size: 20px;
+    padding: 50px;
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+    background-color:black;
+    color: aliceblue;
+    height: 150px;
+}
+.copy{
+    text-align: center;
+}
+.fb{
+    height: 30px;
+/*    margin-left: 300px;*/
+    float: right;
+    border-radius: 50%;
+}
+
+.fb:hover{
+        transform: scale(1.6);
+	transition: transform 300ms ease-in;
+}
+.follow{
+    text-align:right;
+}

@@ -1,0 +1,226 @@
+.header{
+/*    background-image: url(../images/sustbackground.jpg);*/
+    background-color:cadetblue;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(../images/shutterstock_1782359774-scaled.jpg);
+    
+/*    margin: 45%;*/
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+
+.logo1{
+    margin-top: 60px;
+    float: left;
+    height: 150px;
+    width: 160px;
+    border-radius: 50%;
+}
+.logo2{
+    margin-left: 10px;
+    margin-top: 60px;
+    height: 150px;
+    width: 160px;
+    border-radius: 50%
+}
+
+.first_row{
+    margin-top: 55px;
+    
+}
+
+.navbar{
+    margin-top: 60px;
+    margin-left: 350px;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+.navbar li a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+/*    border-radius: 30%;*/
+    
+}
+.navbar li a:hover{
+    color:cyan;
+}
+
+.second_row{
+    margin-top: 20px;
+/*    margin-left: 80px;*/
+}
+.navbar2{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    overflow: hidden;
+}
+.navbar2 li{
+    border: 
+    
+}
+
+.navbar2 li a{
+    color:blueviolet;
+    text-decoration: none;
+    font-family: cursive;
+/*    display: inline-block;*/
+    background-color:beige;
+    padding: 20px;
+    border-radius: 300px;
+    
+}
+.navbar2 li a:hover{
+    color:coral;
+    font-weight: bold;
+
+}
+
+
+.navbar2 li:hover{
+        transform: scale(1.1);
+	transition: transform 300ms ease-in;
+}
+
+.navbar2 li .clr{
+    color: coral;
+}
+/*
+.clr{
+    color: coral;
+}
+*/
+/*
+.header .second_row .navbar2 li a:nth-child(3){
+    color: coral;
+}
+*/
+
+
+
+
+.third_row{
+    margin-top: 40px;
+    font-size: 40px;
+    color:blueviolet;
+}
+
+
+.descriptl1{
+    height: 500px;
+    background: url(../images/Blood-donation-myths-HN1221-Stock-844661710-Sized.png) right ,url(../images/bglist168236204_3887246034727141_9192286874855624226_n.jpg) left ;
+    
+    background-repeat: no-repeat;
+    background-size: 400px 100px,660px;
+    background-color: rgb(3,14,32);
+    border: none;
+    outline: none;
+    background-position: 930px 530px,0px ;
+/*    background-color: linear-gradient(to right, red,hotpink);*/
+    color: aquamarine;
+}
+
+
+input[type="date"]{
+    background-color: #0080ff;
+    padding: 15px;
+    position: absolute;
+/*    transform: translate(-30%,-30%);*/
+/*    top: 50%;*/
+    left: 50%;
+    margin-top: 200px;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.lastdonate{
+    margin-top: 210px;
+    margin-left: 460px;
+    font-size: 30px;
+}
+.sbmt{
+    margin-left: 330px;
+    font-size: 25px;
+    background-image: linear-gradient(to bottom right, red, pink);
+    border-radius: 40px;
+    border: none;
+    color:black;
+}
+.sbmt:hover{
+    background-image: linear-gradient(to bottom right, red,blueviolet);
+        transform: scale(1.2);
+	transition: transform 300ms ease-in;
+    border: none;
+    color:black;
+/*    color: white;*/
+}
+
+
+
+.lastdonate1{
+    margin-top: 80px;
+    font-size: 30px;
+    margin-left: 450px;
+}
+
+.available , .notavailable{
+    font-size: 25px;
+    border-radius: 40px;
+    background-image: linear-gradient(to bottom right, red, pink);
+    border: none;
+    color:black;
+}
+
+.available:hover , .notavailable:hover{
+    background-image: linear-gradient(to bottom right, red,blueviolet);
+        transform: scale(1.2);
+	transition: transform 300ms ease-in;
+    border: none;
+    color:black;
+}
+
+.available{
+    margin-left: 30px;
+}
+.notavailable{
+    margin-left: 20px;
+}
+
+
+
+
+.footer{
+    font-size: 20px;
+    padding: 50px;
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+    background-color:black;
+    color: aliceblue;
+    height: 150px;
+}
+.copy{
+    text-align: center;
+}
+.fb{
+    height: 30px;
+/*    margin-left: 300px;*/
+    float: right;
+    border-radius: 50%;
+}
+
+.fb:hover{
+        transform: scale(1.6);
+	transition: transform 300ms ease-in;
+}
+.follow{
+    text-align:right;
+}

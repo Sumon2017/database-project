@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vaccination</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/vaccine.css" />
+</head>
+<body>
+    <script src="scripts/vaccine.js"></script>
+       <div class="header container-fluid">
+<!--       <div class="container">-->
+         <div class="row first_row">
+            <div class="col-sm-6">
+               <a href="index.html"><img src="images/83_blood-donation-.jpg" class="logo1"></a>
+               <a href="index.html"><img src="images/covid-vaccination-fb.jpg" class="logo2"></a>
+            </div>
+            <div class="col-sm-6">
+                <ul class="navbar list-inline list-unstyled">
+                    <!-- <li><a href="index.html">Your Email</a></li> -->
+<!--                    <li><a href="signup.html">Sign Up</a></li>-->
+                </ul>
+            </div>
+         </div>
+
+
+
+
+         <div class="row second_row">
+             <div class="col-sm-12">
+                 <ul class="navbar2 list-inline list-unstyled text-center">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="vaccine.html"  class="clr">Vaccination</a></li>
+                     <li><a href="bdonation.html">Blood Donation</a></li>
+                     <li><a href="static.html">Who Can Donate</a></li>
+                 </ul>
+             </div> 
+        </div>
+       <div class="row third_row">
+           <marquee direction="alternate" >
+            Welcome to SUST Vaccination & Blood Donation WebSite
+            </marquee>
+       </div>
+<!--       </div>-->
+       </div>
+       
+       <div class="descrption container-fluid">
+          <div class="row onlyrow">
+             <div class="col-sm-12">
+<!--                <h1>hello</h1>-->
+                 
+             </div>
+              
+          </div>
+           
+       </div>
+       
+       <div class="descriptionb1 container-fluid">
+           <div class="row first1_row">
+               <div class="col-sm-12">
+                   <h1>Here is the list of your vaccination info: </h1>
+               </div>
+           </div>
+
+
+           <div id="v1">
+
+            <input type="button" style="color:white ; background : blue ; min-width: 300px;" class="btn" name="" value="+ Vaccine" id="addvaccine" onclick="addvaccine()">
+
+           </div>
+
+           <div class = "addremove" id="v2">
+
+            <form action="" >
+                <div>
+                    <select id="vac_select" style="min-width: 300px; min-height: 35px;">
+                        <option value="">add a vaccine</option>
+                    </select>
+                </div>
+            </form>
+
+            <input type="button" style="color:white ; background : blue ; min-width: 300px;" class="btn" name="" value="Add" id="addv" onclick="addv()">
+
+           </div>
+
+           <div style="min-height: 30px;">
+
+           </div>
+
+           <div id="b1">
+
+            <input type="button" style="color:white ; background : blue ; min-width: 300px;" class="btn" name="" value="+ Booster" id="addbooster" onclick="addbooster()">
+
+           </div>
+
+           <div class = "addremove" id="b2">
+
+                <form action="" >
+                    <div>
+                        <select id="vac_select2" style="min-width: 300px; min-height: 35px;">
+                            <option value="">choose a vaccine</option>
+                        </select>
+                    </div>
+                </form>
+
+                <input type="date" id="lastBooster" name="lastBooster" style="min-width: 300px;">
+                <input type="button" style="color:white ; background : blue ; min-width: 300px;" class="btn" name="" value="Add" id="addb" onclick="addb()">
+           </div>
+
+           <div style="min-height: 30px;"></div>
+
+           <div id="rv1">
+
+            <input type="button" style="color:white ; background : blue ; min-width: 300px;" class="btn" name="" value="- Delete Vaccine" id="removevaccine" onclick="removevaccine()">
+
+           </div>
+
+           <div class = "addremove" id="rv2">
+
+            <form action="" >
+                <div>
+                    <select id="vac_select3" style="min-width: 300px; min-height: 35px;">
+                        <option value="">delete a vaccine</option>
+                    </select>
+                </div>
+            </form>
+
+            <input type="button" style="color:white ; background : blue ; min-width: 300px;" class="btn" name="" value="delete" id="delv" onclick="delv()">
+
+           </div>
+
+           <div class="row second1_row">
+               <div class="col-sm-12">
+                   <table class="table1" id="vtable">
+                       <tr>
+                           <th>Vaccine.</th>
+                           <th>Name</th>
+                           <th>reg</th>
+                           <th>dep.</th>
+                           <th>Last Booster (mm/dd/yyyy)</th>
+                        
+                       </tr>
+                       
+                   </table>
+               </div>
+           </div>
+           
+
+
+       </div>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       <div class="footer container-fluid">
+                <div class="col-sm-8 copy">
+                    Copyright &copy; 2021 by CSE334 Lab Project (2017331029 , 2017331101) . All right reserved.
+                </div>
+                <div class="col-sm-4 follow">
+                   follow us : 
+                    <a href="https://www.facebook.com/a.tuhin.77897"><img src="images/fbdownload.jpg" class="fb"></a>
+                    <a href="https://www.facebook.com/sumonnnnnnn"><img src="images/ffacebook-logo-icon-transparent-12.jpg" class="fb"></a>
+                </div>
+        </div>
+    
+        
+    <script src="js/jquery-1.12.3.js"></script>  
+    <script src="js/bootstrap.min.js"></script> 
+   
+</body>
+</html>

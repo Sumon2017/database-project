@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+/*    justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(../images/sustbackground.jpg);
+    background-size: cover;
+    
+}
+
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+input,select{
+    color: cornsilk;
+    display: block;
+    height: 40px;
+    width: 370px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+/*    color:cornflowerblue;*/
+    font-weight: bold;
+    border-radius: 10%;
+    
+}
+
+button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+form p{
+    margin-bottom: 30px;
+    color:darkblue;
+/*    border: 5px solid black ;*/
+    background-color: aquamarine;
+    
+}
+
+
+::placeholder{
+    color:cornsilk;
+    font-size: 20px;;
+    font-family: cursive;
+/*    font-weight: bold;*/
+}
+
+button:hover{
+    color:black;
+    background-color:deeppink;
+}
